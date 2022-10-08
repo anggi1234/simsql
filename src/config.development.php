@@ -6,8 +6,8 @@
 
 return [
     "Databases" => [
-        "DB" => ["id" => "DB", "type" => "MSSQL", "qs" => "[", "qe" => "]", "host" => "localhost", "port" => null, "user" => "sa", "password" => "Agussalim7", "dbname" => "RSUD_BESEMAH_VCLAIM_V11"],
-        "RSUD_BESEMAH_VCLAIM_V111" => ["id" => "RSUD_BESEMAH_VCLAIM_V111", "type" => "MSSQL", "qs" => "[", "qe" => "]", "host" => "localhost", "port" => "50201", "user" => "sa", "password" => "Agussalim7", "dbname" => "RSUD_BESEMAH_VCLAIM_V11"]
+        "DB" => ["id" => "DB", "type" => "MSSQL", "qs" => "[", "qe" => "]", "host" => "localhost", "port" => null, "user" => "sa", "password" => "Sapito123", "dbname" => "SIMRS"],
+        "RSUD_BESEMAH_VCLAIM_V111" => ["id" => "SIMRS", "type" => "MSSQL", "qs" => "[", "qe" => "]", "host" => "localhost", "port" => "50201", "user" => "sa", "password" => "Sapito123", "dbname" => "SIMRS"]
     ],
     "SMTP" => [
         "PHPMAILER_MAILER" => "smtp", // PHPMailer mailer
